@@ -1,0 +1,72 @@
+body{
+    margin: 0px;
+  }
+  
+  .form_card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    text-align: center;
+    box-shadow: 0px 0px 8px 5px rgba(255, 3, 3, 0.43);
+  }
+  .form_card input{
+    border: none;
+    background-color: lavender;
+    padding: 5px;
+  }
+
+
+  #sign_in_button{
+    border: none;
+    color: white;
+    background-color: red;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+  }
+  
+  #head{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 80px
+  }
+  .email_section{
+    margin: 10px;
+    margin-top: 80px;
+  }
+  .email_section input{
+    position: relative;
+    right: -15px;
+  }
+  .email_section label{
+    position: relative;
+    right: 15px;
+  }
+  .password_section{
+    margin: 10px;
+    margin-top: 30px;
+  }
+  input[type=submit]{
+    margin-top: 30px;
+  }
+  p,a{
+    font-size: 13px;
+  }
+
+
+  #nav_right{
+    visibility: hidden;
+  }
+
+  #password_check
+  {
+    color: red;
+    position: relative;
+    left: 50px;
+  }
+  

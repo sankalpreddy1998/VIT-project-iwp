@@ -1,0 +1,19 @@
+body{
+    margin: 0px;
+}
+#input{
+    margin-top: 100px;
+    margin-left: 100px; 
+}
+#input_section{
+    margin-bottom: 30px; 
+}
+#input_field{
+    width: 300px;
+}
+.row{
+    border-radius: 15px;
+    padding: 5px;
+    width: 500px;
+    background-color:peachpuff;
+}

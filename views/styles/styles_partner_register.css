@@ -1,0 +1,96 @@
+body{
+    margin: 0px;
+  }
+  
+  #form_card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 450px;
+    height: 500px;
+    margin-top: -220px;
+    margin-left: -225px;
+    text-align: center;
+    box-shadow: 0px 0px 8px 5px rgba(255, 0, 0, 0.43);
+  }
+  #response{
+    position: relative;
+    top: 150px;
+    text-align: center;
+    color: red;
+  }
+  #head{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px
+  }
+  
+
+
+
+  .partner_name_section{
+    margin: 10px;
+    margin-top: 30px;
+    position: relative;
+    left: -10px;
+  }
+  .partner_name_section input{
+    position: relative;
+    left: 20px;
+  }
+  .email_section{
+    margin: 10px;
+    margin-top: 30px;
+    position: relative;
+    left: -45px;
+  }
+  .email_section input{
+    position: relative;
+    left: 90px;
+  }
+  
+  .password_section{
+    margin: 10px;
+    margin-top: 30px;
+    position: relative;
+    left: -30px;
+  }
+  .password_section input{
+    position: relative;
+    left: 60px;
+  }
+  
+  .password_retype_section{
+    margin: 10px;
+    margin-top: 30px;
+  }
+
+
+  input
+  {
+      border:none;
+      padding: 5px;
+      background-color: lavender;
+  }
+  p,a{
+    font-size: 13px;
+  }
+  
+  #sign_up_button
+  {
+    border: none;
+    background-color: red;
+    color: white;
+    width: 100px;
+    padding: 10px;
+    margin-top: 50px;
+  }
+  #password_check
+  {
+    color: red;
+    position: relative;
+    left: 50px;
+  }
+  #nav_right{
+    visibility: hidden;
+  }

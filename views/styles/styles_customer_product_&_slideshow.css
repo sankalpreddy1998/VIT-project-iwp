@@ -1,0 +1,187 @@
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+.slideshow_img{
+  height: 400px;
+  
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin-top: 50px;
+  border: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  z-index: 9998;
+  position: relative;
+  top: -20px;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: slide;
+  -webkit-animation-duration: 1.5s;
+  animation-name: slide;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes slide {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes slide {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+#contain {
+    margin-top: 110px;
+    width:600px;
+    height:600px;
+    margin-left: 150px;
+}
+
+#details{
+    display: flex;
+}
+
+#description_box{
+    width: 500px;
+    margin-right: 150px;
+    margin-left: 100px;
+    margin-top:150px;
+}
+
+table{
+    margin-left: 200px;
+    margin-bottom: 150px;
+    width: 500px;
+}
+
+ td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+ tr:nth-child(even){background-color: #f2f2f2;}
+  
+ tr:hover {background-color: #ddd;}
+  
+ th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: black;
+    color: white;
+  }
+
+
+  hr{
+    border-top: 1px solid gray;
+    border-bottom: none;
+  }
+
+  .img_btn{
+    height:80px;
+    width: 80px;
+  }
+
+  .video_btn{
+    height:80px;
+    width: 80px;
+    position: relative;
+    top:30px;
+
+  }
+  
+  .video_btn:hover{
+    border-bottom: 4px solid black;
+  }
+
+  .img_btn:hover{
+    border-bottom: 4px solid black;
+  }
+
+  #Technical_Details_Heading{
+    margin-left: 150px;
+    margin-top: 150px;
+  }
+
+  #add_cart{
+    border-radius: 0px;
+    padding: 15px;
+    color: white;
+    background-color: palevioletred;
+  }
+
+  input[type="number"]{
+    border-radius: 0px;
+    border: 1px solid slategray;
+    height: 40px;
+    padding: 10px;
+    padding-right: 0px;
+  }
